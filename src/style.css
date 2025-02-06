@@ -1,0 +1,97 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+.font-head {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+}
+.line-break-0 {
+  line-break: unset;
+}
+.w-53 {
+  width: 53%;
+}
+.mirror {
+  transform: rotateZ(90deg);
+  -webkit-transform: rotateZ(90deg);
+  -moz-transform: rotateZ(90deg);
+  -ms-transform: rotateZ(90deg);
+  -o-transform: rotateZ(90deg);
+}
+
+.scale_dwn {
+  transform: scale(0.7);
+  -webkit-transform: scale(0.7);
+  -moz-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  -o-transform: scale(0.7);
+}
+.left-50 {
+  left: 22%;
+}
+/* 
+.col-2 {
+  flex: 0 0 auto;
+  width: 14.66666667%;
+} */
+
+.top-12 {
+  top: 53px;
+}
+
+.bg-menu {
+  background-color: #f2f2f2;
+}
+.bg-menu-bottom {
+  background-color: #e6e6e6 !important;
+}
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
+.arrow::after {
+  content: "";
+  margin-left: 5px;
+  display: inline-flex;
+  width: 6px;
+  height: 7px;
+  overflow: visible;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  transform: rotate(45deg);
+}
+.w-85 {
+  width: 95%;
+}
+input[id="open"]:checked ~ .container {
+  display: flex !important;
+}
+.cursor {
+  cursor: pointer;
+}
+.hover-underline:hover {
+  text-decoration: underline;
+}
+.border-dotted-hover:hover {
+  border: 1px dotted black;
+}
+.bg-blue {
+  background-color: #0067b8;
+}
+.font-sect {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+.font-weight-600{
+  font-weight: 600;
+}
+.arrow-animation-hover:hover svg{
+  transform: translate(30%, 0);
+  -webkit-transform: translate(30%, 0);
+  -moz-transform: translate(30%, 0);
+  -ms-transform: translate(30%, 0);
+  -o-transform: translate(30%, 0);
+  transition-duration: 500ms;
+}
+.section1-bgimage{
+  background-image: url('../public/Highlight-M365-Icon-Bounce_VP5-1920x600.avif');
+}
