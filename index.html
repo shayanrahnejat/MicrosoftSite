@@ -7,6 +7,7 @@
     <link rel="icon" type="image/svg+xml" href="/public/microsoft.ico" />
     <link rel="stylesheet" href="./src/style.css" />
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
   </head>
   <body>
     <!-- Header Start -->
@@ -65,7 +66,7 @@
         ></a>
 
         <div
-          class="container position-absolute d-none flex-column top-12 left-50 bg-menu w-75 p-0"
+          class="container position-absolute d-none flex-column top-12 left-50 bg-menu w-75 p-0 z-1"
         >
           <div class="container d-flex">
             <div class="col-2">
@@ -380,7 +381,285 @@
       </div>
     </header>
     <!-- Header End -->
+    <!-- Main Start  -->
+    <main>
+      <section>
+        <div class="container-fluid bg-blue text-white text-center py-3 z-1">
+          <p class="m-0 font-sect font-weight-600 arrow-animation-hover">
+            Free 2-3 day shipping on every purchase, no catch. Learn more
+            <svg
+              class="font-weight-600"
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-chevron-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+              />
+            </svg>
+          </p>
+        </div>
+      </section>
+      <section>
+        <div class="container-fluid w-100 p-0 z-0">
+          <!-- Slider main container -->
+          <div class="swiper swiper1 z-0">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper position-relative">
+              <!-- Slides -->
+              <div class="swiper-slide section1-bgimage">
+                <div class="container w-100 py-7">
+                  <h1 class="font-slider w-36">
+                    Save up to $350 on select Surface Laptop, Copilot+ PC
+                  </h1>
+                  <p class="w-25 font-sect">
+                    Save big on an AI-powered companion made for next-gen
+                    performance. For a limited time.
+                  </p>
+                  <a
+                    class="btn btn-light rounded-1 border-0 text-white"
+                    href="#"
+                    >Shop now</a
+                  >
+                </div>
+              </div>
+              <div class="swiper-slide section2-bgimage">
+                <div class="container w-100 py-7 mt-2 my-auto">
+                  <h1 class="font-slider w-36">Achieve the extraordinary</h1>
+                  <p class="w-25 font-sect">
+                    Microsoft 365 delivers cloud storage, security, and
+                    Microsoft Copilot in your favorite apps—all in one plan.
+                  </p>
+                  <a
+                    class="btn btn-light rounded-1 border-0 text-white"
+                    href="#"
+                    >Shop Microsoft 365</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev z-0">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-chevron-left"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"
+              />
+            </svg>
+          </div>
+          <div class="loop loop_btn z-0">
+            <svg
+              class="play"
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="30"
+              fill="currentColor"
+              class="bi bi-play-circle"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+              />
+              <path
+                d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"
+              />
+            </svg>
+            <svg
+              class="pause"
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="30"
+              fill="currentColor"
+              class="bi bi-pause-circle"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+              />
+              <path
+                d="M5 6.25a1.25 1.25 0 1 1 2.5 0v3.5a1.25 1.25 0 1 1-2.5 0zm3.5 0a1.25 1.25 0 1 1 2.5 0v3.5a1.25 1.25 0 1 1-2.5 0z"
+              />
+            </svg>
+          </div>
+          <div class="swiper-button-next z-0">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-chevron-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+              />
+            </svg>
+          </div>
 
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </section>
+      <section class="py-5 mt-5">
+        <div
+          class="container d-flex m-auto align-items-center justify-content-around"
+        >
+          <div class="col-2 d-flex flex-column">
+            <img
+              class="mx-auto"
+              width="40"
+              height="40"
+              src="./public/Link-List-Icons-Surface-Devices.svg"
+              alt="an image of microsoft surface"
+            />
+            <a class="text-center" href="#">Shop Surface devices </a>
+          </div>
+          <div class="col-2 d-flex flex-column">
+            <img
+              class="mx-auto"
+              width="40"
+              height="40"
+              src="./public/Link-List-Icons-Xbox-Games-Consoles.svg"
+              alt="image of Xbox game consules"
+            />
+            <a class="text-center" href="#">Shop Xbox games and consoles</a>
+          </div>
+          <div class="col-2 d-flex flex-column">
+            <img
+              class="mx-auto"
+              width="40"
+              height="40"
+              src="./public/Link-List-Icons-Accessories.svg"
+              alt="image of accessories"
+            />
+            <a class="text-center" href="#">Shop for accessories</a>
+          </div>
+          <div class="col-2 d-flex flex-column">
+            <img
+              class="mx-auto"
+              width="40"
+              height="40"
+              src="./public/Link-List-Icons-Business.svg"
+              alt="image of a suitcase"
+            />
+            <a class="text-center" href="#">Shop for your business</a>
+          </div>
+          <div class="col-2 d-flex flex-column">
+            <img
+              class="mx-auto"
+              width="40"
+              height="40"
+              src="./public/Link-List-Icon-PC.svg"
+              alt="image of a desktop pc"
+            />
+            <a class="text-center" href="#">Find your next PC </a>
+          </div>
+          <div class="col-2 d-flex flex-column">
+            <img
+              class="mx-auto"
+              width="40"
+              height="40"
+              src="./public/Link-List-Icons-Microsoft-365.svg"
+              alt="the microsoft icon"
+            />
+            <a class="text-center" href="#">Choose your Microsoft 365</a>
+          </div>
+        </div>
+      </section>
+      <section></section>
+    </main>
+    <!-- Main End -->
+    <script>
+      let play_btn = document.querySelector(".play");
+      let pause_btn = document.querySelector(".pause");
+
+      // Initially hide play button
+      play_btn.style.display = "none";
+
+      let swiper = new Swiper(".swiper", {
+        loop: true, // Initially enabled
+        speed: 400,
+        slidesPerView: 1,
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        autoplay: {
+          delay: 3000, // Delay in milliseconds (3 seconds)
+          disableOnInteraction: false, // Keeps autoplay running even after interaction
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+      });
+
+      function enableLoop() {
+        swiper.destroy(true, true); // Destroy the existing instance
+        swiper = new Swiper(".swiper", {
+          loop: true, // Enable loop
+          speed: 400,
+          slidesPerView: 1,
+          autoplay: {
+            delay: 3000, // Delay in milliseconds (3 seconds)
+            disableOnInteraction: false, // Keeps autoplay running even after interaction
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          scrollbar: {
+            el: ".swiper-scrollbar",
+          },
+        });
+
+        play_btn.style.display = "none";
+        pause_btn.style.display = "block";
+      }
+
+      function disableLoop() {
+        swiper.destroy(true, true); // Destroy the existing instance
+        swiper = new Swiper(".swiper", {
+          loop: false, // Disable loop
+          speed: 400,
+          slidesPerView: 1,
+          pagination: {
+            el: ".swiper-pagination",
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          scrollbar: {
+            el: ".swiper-scrollbar",
+          },
+        });
+
+        play_btn.style.display = "block";
+        pause_btn.style.display = "none";
+      }
+
+      play_btn.addEventListener("click", enableLoop);
+      pause_btn.addEventListener("click", disableLoop);
+    </script>
   </body>
 </html>

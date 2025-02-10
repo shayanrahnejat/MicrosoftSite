@@ -1,4 +1,5 @@
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "../node_modules/swiper/swiper.min.css";
 
 .font-head {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -62,6 +63,9 @@
 .w-85 {
   width: 95%;
 }
+.w-36 {
+  width: 36%;
+}
 input[id="open"]:checked ~ .container {
   display: flex !important;
 }
@@ -81,10 +85,10 @@ input[id="open"]:checked ~ .container {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
 }
-.font-weight-600{
+.font-weight-600 {
   font-weight: 600;
 }
-.arrow-animation-hover:hover svg{
+.arrow-animation-hover:hover svg {
   transform: translate(30%, 0);
   -webkit-transform: translate(30%, 0);
   -moz-transform: translate(30%, 0);
@@ -92,6 +96,95 @@ input[id="open"]:checked ~ .container {
   -o-transform: translate(30%, 0);
   transition-duration: 500ms;
 }
-.section1-bgimage{
-  background-image: url('../public/Highlight-M365-Icon-Bounce_VP5-1920x600.avif');
+.section1-bgimage {
+  background-image: url("../public/Highlight-Surface-Laptop-AI-7Ed-Platinum-MC003-3000x1682_VP5-1920x600.avif");
+  background-size: 100%;
+  background-position: center;
+}
+.section2-bgimage {
+  background-image: url("../public/Highlight-M365-Icon-Bounce_VP5-1920x600.avif");
+  background-size: 100%;
+  background-position: center;
+}
+.btn-light {
+  background-color: #0067b8;
+}
+.font-slider {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 37px;
+}
+.text-align-justify {
+  text-align: justify;
+}
+.swiper-slide {
+  width: 100vw !important;
+  padding: 0;
+  margin: 0;
+  height: 60vh !important;
+}
+.py-7 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.z-1 {
+  z-index: 1 !important;
+}
+.z-0 {
+  z-index: 0 !important;
+}
+.loop_btn {
+  position: absolute;
+  top: var(--swiper-navigation-top-offset, 75%);
+  transform: translate(-50%,0);
+  -webkit-transform: translate(-50%,0);
+  -moz-transform: translate(-50%,0);
+  -ms-transform: translate(-50%,0);
+  -o-transform: translate(-50%,0);
+  left: 47%;
+  width: calc(var(--swiper-navigation-size) / 44 * 27);
+  height: var(--swiper-navigation-size);
+  margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* color: var(--swiper-navigation-color, var(--swiper-theme-color)); */
+  overflow: visible;
+}
+.swiper-button-next{
+  position: absolute;
+  color: black;
+  top: var(--swiper-navigation-top-offset, 75%);
+  transform: translate(-50%,0);
+  -webkit-transform: translate(-50%,0);
+  -moz-transform: translate(-50%,0);
+  -ms-transform: translate(-50%,0);
+  -o-transform: translate(-50%,0);
+  left: 53%;
+  overflow: visible;
+}
+.swiper-button-prev{
+  position: absolute;
+  color: black;
+  top: var(--swiper-navigation-top-offset, 75%);
+  transform: translate(-50%,0);
+  -webkit-transform: translate(-50%,0);
+  -moz-transform: translate(-50%,0);
+  -ms-transform: translate(-50%,0);
+  -o-transform: translate(-50%,0);
+  left: 50%;
+  overflow: visible;
+}
+.swiper-pagination{
+  position: absolute;
+  z-index: 1;
+  top: var(--swiper-navigation-top-offset, 75%);
+  transform: translate(-50%,0);
+  -webkit-transform: translate(-50%,0);
+  -moz-transform: translate(-50%,0);
+  -ms-transform: translate(-50%,0);
+  -o-transform: translate(-50%,0);
+  left: 56%;
+
 }
