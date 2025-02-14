@@ -5,6 +5,11 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 13px;
 }
+.font-foot{
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 11px;
+}
+
 .line-break-0 {
   line-break: unset;
 }
@@ -209,4 +214,32 @@ input[id="open"]:checked ~ .container {
   margin-left: 9%;
   margin-right: 9%;
 }
+.bg-nfl{
+  background-image: url(../public/Highlight-NFL-2025-Kayvon-Thibodeaux_VP5-1596x600.avif);
+  background-size: cover;
+}
+.font-weight-400{
+  font-weight:400;
+}
+.w-10{
+  width: fit-content
+}
+.btn-secondary:hover{
+  background-color: white;
+  color: black;
+}
+.font-foot1{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: #616161;
+}
 
+.bg-d{
+  background-color:#F2F2F2;
+}
+.text-black{
+  color:#616161 !important;
+}
+.mt-min1{
+  margin-top: -1%;
+}
