@@ -5,7 +5,7 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 13px;
 }
-.font-foot{
+.font-foot {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 11px;
 }
@@ -33,6 +33,94 @@
 }
 .left-50 {
   left: 22%;
+}
+.w-85 {
+  width: 95%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .left-50 {
+    left: 12%;
+  }
+  .left-40 {
+    left: 628px;
+  }
+  .bg-body {
+    background-color: #f2f2f2;
+  }
+  .w-15 {
+    width: 15%;
+  }
+  input[id="open-more"]:checked ~ .col-1 {
+    display: block !important;
+  }
+  .w-85 {
+    width: 100%;
+  }
+  .h3 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 973px) {
+  .d-lgg-block {
+    display: block !important;
+  }
+  .left-40 {
+    left: 579px;
+  }
+  .h3 {
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 974px) {
+  .d-lgg1-block {
+    display: block !important;
+  }
+}
+@media only screen and (max-width: 963px) {
+  .left-40 {
+    left: 532px;
+  }
+}
+/* @media only screen and (min-width: 964px){
+  .d-mdd1-block{
+    display: block !important;
+  }
+} */
+@media only screen and (max-width: 910px) {
+  .d-mdd-block {
+    display: block !important;
+  }
+  .left-40 {
+    left: 532px;
+  }
+}
+@media only screen and (min-width: 909px) {
+  .d-mdd1-block {
+    display: block !important;
+  }
+}
+@media only screen and (max-width: 823px) {
+  .d-flex-w823 {
+    display: flex !important;
+  }
+  .d-block-w823 {
+    display: block !important;
+  }
+  .w-w823-100 {
+    width: 100% !important;
+    padding: 10px !important;
+  }
+  .d-w823-none {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 605px) {
+  .w-card-100 {
+    width: 100% !important;
+    position: float !important;
+  }
 }
 /* 
 .col-2 {
@@ -65,10 +153,7 @@
   border-top: 1px solid black;
   transform: rotate(45deg);
 }
-.w-85 {
-  width: 95%;
-}
-.w-90{
+.w-90 {
   width: 91%;
 }
 .w-36 {
@@ -106,13 +191,25 @@ input[id="open"]:checked ~ .container {
 }
 .section1-bgimage {
   background-image: url("../public/Highlight-Surface-Laptop-AI-7Ed-Platinum-MC003-3000x1682_VP5-1920x600.avif");
-  background-size: 100%;
-  background-position: center;
+  background-size: auto;
+  background-position: right;
+  background-position: right;
 }
 .section2-bgimage {
   background-image: url("../public/Highlight-M365-Icon-Bounce_VP5-1920x600.avif");
-  background-size: 100%;
-  background-position: center;
+  background-size: cover;
+  background-position: right;
+}
+.mh-70 {
+  max-height: 70vh;
+}
+.top-70 {
+  top: 70% !important;
+}
+.w-90 {
+  width: 95%;
+  left: 2.5%;
+  right: 2.5%;
 }
 .btn-light {
   background-color: #0067b8;
@@ -172,6 +269,9 @@ input[id="open"]:checked ~ .container {
   left: 53%;
   overflow: visible;
 }
+.position-relative {
+  position: relative !important;
+}
 .swiper-button-prev {
   position: absolute;
   color: black;
@@ -196,8 +296,8 @@ input[id="open"]:checked ~ .container {
   left: 56%;
 }
 
-.h-73vh {
-  height: 73vh;
+.h-80vh {
+  min-height: 80vh !important;
 }
 .card-border {
   border: 3px solid #f2f2f2;
@@ -214,32 +314,150 @@ input[id="open"]:checked ~ .container {
   margin-left: 9%;
   margin-right: 9%;
 }
-.bg-nfl{
+.bg-nfl {
   background-image: url(../public/Highlight-NFL-2025-Kayvon-Thibodeaux_VP5-1596x600.avif);
   background-size: cover;
 }
-.font-weight-400{
-  font-weight:400;
+.font-weight-400 {
+  font-weight: 400;
 }
-.w-10{
-  width: fit-content
+.w-10 {
+  width: fit-content;
 }
-.btn-secondary:hover{
+.btn-secondary:hover {
   background-color: white;
   color: black;
 }
-.font-foot1{
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
-    color: #616161;
+.font-foot1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: #616161;
 }
 
-.bg-d{
-  background-color:#F2F2F2;
+.bg-d {
+  background-color: #f2f2f2;
 }
-.text-black{
-  color:#616161 !important;
+.text-black {
+  color: #616161 !important;
 }
-.mt-min1{
+.mt-min1 {
   margin-top: -1%;
+}
+.drp-dwn {
+  top: 10;
+}
+.left-0 {
+  left: 0;
+}
+.top-50px {
+  top: 50px;
+}
+.bg-darkk {
+  background-color: #f2f2f2 !important;
+}
+input[id="open-menu"]:checked ~ .menu {
+  display: block !important;
+}
+input[id="open-menu"]:checked {
+  ~ .men-icon-open {
+    display: none !important;
+  }
+  ~ .men-icon-close {
+    display: block !important;
+  }
+}
+.w-215px {
+  width: 215px;
+}
+.w-100vw {
+  width: 99vw !important;
+}
+.w-319px {
+  min-width: 319px !important;
+}
+.w-190px {
+  width: 210px;
+}
+
+.h3 {
+  font-size: 24px;
+}
+@media only screen and (max-width: 992px) {
+  .w-lg-50 {
+    width: 48%;
+  }
+  .w-lg-100 {
+    width: 99vw !important;
+    margin: 0 !important;
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .height-md-max {
+    height: max-content;
+  }
+}
+@media only screen and (max-width: 1010px) {
+  .w-100-i {
+    width: 100% !important;
+  }
+}
+
+.w-210px {
+  width: 180px !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .swiper-button-next,
+  .swiper-button-prev,
+  .loop_btn {
+    top: var(--swiper-navigation-top-offset, 90%);
+  }
+  .pt-s {
+    margin-top: 100px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .swiper-button-next,
+  .swiper-button-prev,
+  .loop_btn {
+    top: var(--swiper-navigation-top-offset, 94%);
+  }
+  .pt-s {
+    margin-top: 100px !important;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .swiper-button-next,
+  .swiper-button-prev,
+  .loop_btn {
+    top: var(--swiper-navigation-top-offset, 80%);
+  }
+  .pt-s {
+    margin-top: 120px !important;
+  }
+  .h-40 {
+    height: 40vh !important;
+  }
+  .section2-bgimage {
+    background-image: url(../public/Highlight-M365-Icon-Bounce_VP2-859x540.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh !important;
+  }
+  .section1-bgimage {
+    background-image: url(../public/Highlight-Surface-Laptop-AI-7Ed-Platinum-MC003-3000x1682_VP5-1920x600.avif);
+    background-size: cover;
+    height: 30vh !important;
+    .card {
+      margin: auto;
+    }
+  }
+  .pt-s {
+    margin-top: 200px !important;
+  }
+}
+.swiper {
+  overflow-x: clip !important;
 }
