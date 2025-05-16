@@ -200,11 +200,12 @@ input[id="open"]:checked ~ .container {
   background-size: cover;
   background-position: right;
 }
-.mh-70 {
-  max-height: 70vh;
-}
+
 .top-70 {
   top: 70% !important;
+}
+.mh-70 {
+  max-height: 70vh;
 }
 .w-90 {
   width: 95%;
